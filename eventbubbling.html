@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Event bubbling</title>
+<style>
+div{
+padding:10px;
+margin:10px;
+border:1px solid #ccc;
+}
+</style>
+</head>
+<body>
+<div id="parent">
+<div id="child">ClickMe!</div>
+</div>
+<script>
+document.getElementById('parent').addEventListener('click',function(){
+alert('parent div clicked(bubbling)')
+});
+document.getElementById('child').addEventListener('click',function(){
+alert('child div clicked(bubbling)')
+});
+</script>
+</body>
+</html>
