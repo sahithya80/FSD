@@ -4,11 +4,11 @@ import './index.css';
 
 const App = () => {
   const data = [
-     { ID: 1, Name: 'Pavan', Age: 19 },
+     { ID: 1, Name: 'sara', Age: 19 },
      { ID: 2, Name: 'sai', Age: 18 },
      { ID: 3, Name: 'sunny', Age: 20 },
-     { ID: 4, Name: 'Ravi', Age: 23 },
-     { ID: 5, Name: 'Kumar', Age: 21 },
+     { ID: 4, Name: 'Raha', Age: 23 },
+     { ID: 5, Name: 'Rahul', Age: 26 },
   ];
   return (
      <div>
